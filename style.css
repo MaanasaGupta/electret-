@@ -1,0 +1,69 @@
+.text-vertical-center {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    color: #fff;
+}
+#register_button {
+    line-height: 20px;
+    position: relative;
+    top: 120px;
+}
+a:hover, a:active, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.hero-unit-btn {
+    /* font-family: Dosis, sans-serif; */
+    font-family: batma;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    /*display: inline block*/
+    background: transparent;
+    opacity: 0.9;
+    transition: 0.5s;
+    font-family: batma;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    color: #fff;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #131313; */
+    background-color: #000;
+    height: 100%;
+}
+
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+:root {
+    --primary-color: #FFB300;
+    --primary-dark-color: #000000;
+    --secondry-color: #AA00FF;
+    --orange-color: #f4511e;
+    --orange-dark-color: #E64A19;
+    --blue-color: #1565c0;
+    --blue-dark-color: #0a4e9b;
+}
+.er {
+    padding-bottom: 600px;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
